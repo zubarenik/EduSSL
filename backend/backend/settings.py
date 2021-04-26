@@ -20,18 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '57^g8ii*p!t-@5gx+^=lhm5n8v5@m9@!w8^)gaze$$!b_j)%_!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-API = "http://716e74b9ba39.ngrok.io"
-API_EMAIL = "courses@edu.skillslab.center"
-PUBLIC_KEY = "1606223681373"
-PRIVATE_KEY = "ak4frit5mq28r86a"
 
 # Application definition
 
