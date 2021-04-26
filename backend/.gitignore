@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+PythonVenv/
+.idea/
+backend/static/uploads/job
+backend/static/uploads/review
+backend/static/uploads/course
+backend/static/uploads/teacher

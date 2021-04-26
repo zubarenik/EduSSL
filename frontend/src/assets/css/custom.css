@@ -1,0 +1,44 @@
+.tag
+{
+   
+    padding: 10px 15px;
+    position: relative;
+    font-size:calc( (100vw - 480px)/(1280 - 480) * (18 - 16) + 16px);
+    /* font-size: 1.5rem; */
+}
+.tag:before
+{
+
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 100%;
+  width   : 100%;  /* or 100px */
+  border:2px #08a2dc solid;
+  border-radius: 30px;
+
+}
+.banner-heading
+{
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (72 - 48) + 48px);
+}
+.course-heading
+{
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (48 - 36) + 36px);
+    color: #08a2dc;
+    word-break: break-word;
+}
+.info-area
+{
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 1rem !important;
+}
+.back-primary
+{
+  background-color: #f9f9f9;
+}
