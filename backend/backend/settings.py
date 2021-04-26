@@ -82,8 +82,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'EduSSL',
-        'USER': 'admin',
-        'PASSWORD': 'zunik',
         'HOST': 'localhost',
         'PORT': '',
     }
